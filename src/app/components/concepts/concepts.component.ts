@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './array.component.html',
   styleUrls: ['./array.component.css'],
 })
-export class ArrayComponent {
+export class ConceptsComponent {
   constructor() {}
   setArray = new Set<number>();
   displaySet: string = '';

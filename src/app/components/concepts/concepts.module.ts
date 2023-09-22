@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ArrayComponent } from './array.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ConceptsComponent } from './concepts.component';
 
 @NgModule({
   imports: [CommonModule, MatTabsModule, BrowserAnimationsModule],
-  declarations: [ArrayComponent],
+  declarations: [ConceptsComponent],
 })
-export class ExampleModule {}
+export class ConceptsModule {}
