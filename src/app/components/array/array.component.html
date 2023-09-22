@@ -1,0 +1,33 @@
+<mat-tab-group animationDuration="1000ms">
+  <mat-tab label="Set">
+    <p>
+      The Set object lets you store unique values of any type, whether primitive
+      values or object references.
+    </p>
+    <code>
+      array = [1, 2, 5];<br />
+      array2 = [5, 6, 7];
+    </code>
+    <br /><br />
+    <button (click)="set()">click to see result!</button>
+    <p *ngIf="displaySet">Set: {{ displaySet }}</p>
+  </mat-tab>
+  <mat-tab label="Truthy and Falsy">Content 3</mat-tab>
+  <mat-tab label="!! or Bolean(‘’)">Content 3</mat-tab>
+  <mat-tab label="Array.reduce">Content 3</mat-tab>
+  <mat-tab label="Array.filter()">Content 3</mat-tab>
+  <mat-tab label="Array.Find()">Content 3</mat-tab>
+  <mat-tab label="Array.splice()">Content 3</mat-tab>
+  <mat-tab label="Array.indexOf()">Content 3</mat-tab>
+  <mat-tab label="Map vs Tap">Content 3</mat-tab>
+  <mat-tab label="Spread syntax">
+    <p>
+      The spread syntax allows array elements to be passed in as individual
+      arguments.
+    </p>
+    <code>
+      result.salesQuickTaskGroupLookup.forEach(group =>
+      this.salesQuickTaskArray.push(...group.salesQuickTaskLookups));
+    </code>
+  </mat-tab>
+</mat-tab-group>
