@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 @Component({
-  selector: 'app-array',
-  templateUrl: './array.component.html',
-  styleUrls: ['./array.component.css'],
+  selector: 'app-concepts',
+  templateUrl: './concepts.component.html',
+  styleUrls: ['./concepts.component.css'],
 })
 export class ConceptsComponent {
   constructor() {}

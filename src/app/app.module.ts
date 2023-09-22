@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing.module';
 import { CartModule } from './components/cart/cart.module';
+import { ConceptsModule } from './components/concepts/concepts.module';
 import { ProductModule } from './components/product/product.module';
 @NgModule({
   imports: [
@@ -12,7 +13,7 @@ import { ProductModule } from './components/product/product.module';
     ProductModule,
     CartModule,
     AppRoutingModule,
-    Concept
+    ConceptsModule,
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent],
