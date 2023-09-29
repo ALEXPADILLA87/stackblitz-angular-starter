@@ -9,7 +9,7 @@ import { ConceptsComponent } from './components/concepts/concepts.component';
       { path: 'products', component: ProductComponent },
       { path: 'cart', component: CartComponent },
       { path: 'concepts', component: ConceptsComponent },
-      { path: '**', redirectTo: 'products' },
+      { path: '**', redirectTo: 'concepts' },
     ]),
   ],
   exports: [RouterModule],
